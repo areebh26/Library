@@ -67,6 +67,65 @@ tbody button{
 tbody > tr:hover{
     background-color: #334155;
 }
+dialog{
+    background-color: #1e293b;
+    width: 30%;
+    margin: auto;
+}
+.dialog-first-container{
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+.dialog-first-container > button{
+   
+   background-color: transparent;
+   border: none;
+   color: #f1f5f9;
+    
+    
+    
+}
+.dialog-second-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container-for-input-fields > div{
+     display: flex;
+     flex-direction: column;
+     color: #94a3b8;
+     
+
+}
+#title,#author,#pages,#status{
+    color: white;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.dialog-third-container{
+    width: 90%;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 30px;
+}
+#cancel-button-in-dialogBox{
+    color: white;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+#add-button-in-dialogBox{
+    color: white;
+    background-color: #3b82f6;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
 
 
   

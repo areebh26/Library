@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main-container">
-        <div class="first-container">
-            <h1>📚Library</h1>
-            <button>+ Add New Book</button>
-        </div>
-        <div class="second-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Author</th>
-                        <th>Pages</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Introduction to ALgorithms</td>
-                        <td>Thomas H. Cormen</td>
-                        <td>1312</td>
-                        <td>Read</td>
-                        <td><button class="table-action-button-1" title="Toggle Read Status">📖</button><button class="table-action-button-2" title="Delete Book">🗑️</button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      <div class="first-container">
+        <h1>📚Library</h1>
+        <button class="addNewBookButton">+ Add New Book</button>
+      </div>
+      <div class="second-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Introduction to ALgorithms</td>
+              <td>Thomas H. Cormen</td>
+              <td>1312</td>
+              <td>Read</td>
+              <td>
+                <button
+                  class="table-action-button-1"
+                  title="Toggle Read Status"
+                >
+                  📖</button
+                ><button class="table-action-button-2" title="Delete Book">
+                  🗑️
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+
+    <dialog>
+      <div class="dialog-first-container">
+        <button>⛌</button>
+      </div>
+      <div class="dialog-second-container">
+        <div class="container-for-input-fields">
+          <div class="input-field" id="input-1">
+            <label for="title">Book Title</label>
+            <input
+              type="text"
+              placeholder="e.g. Python Fundamentals"
+              id="title"
+              minlength="2"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="input-field" id="input-2">
+            <label for="author">Book Author</label>
+            <input
+              type="text"
+              placeholder="e.g. Mirza Ghalib"
+              id="author"
+              minlength="2"
+              maxlength="25"
+              required
+            />
+          </div>
+          <div class="input-field" id="input-3">
+            <label for="pages">Number of Pages</label>
+            <input type="number" placeholder="e.g. 454" id="pages" required />
+          </div>
+          <div class="input-field" id="input-4">
+            <label for="status">Reading Status</label>
+            <select name="status" id="status" required>
+              <option value="1">Read</option>
+              <option value="2">Not Read Yet</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="dialog-third-container">
+        <button id="cancel-button-in-dialogBox">Cancel</button>
+        <button id="add-button-in-dialogBox">Add Book</button>
+      </div>
+    </dialog>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
