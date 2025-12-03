@@ -74,20 +74,7 @@ dialog{
     border-radius: 20px;
     border: 1px solid #1e293b ;
 }
-.dialog-first-container{
-    width: 90%;
-    margin: auto;
-    text-align: right;
-}
-.dialog-first-container > button{
-   
-   background-color: transparent;
-   border: none;
-   color: #f1f5f9;
-    
-    
-    
-}
+
 .dialog-second-container{
     width: 90%;
     margin: auto;
