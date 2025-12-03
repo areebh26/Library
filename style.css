@@ -53,19 +53,25 @@ tbody button{
     border: 1px solid #334155;
     border-radius: 5px;
 }
-.table-action-button-2{
+tbody .table-action-button-2{
     margin-left: 10px;
 }
-.table-action-button-2:hover{
+tbody .table-action-button-2:hover{
     border-color: red;
     background-color: rgb(255, 0, 0,0.1);
 }
-.table-action-button-1:hover{
+tbody .table-action-button-1:hover{
     border-color: green;
     background-color: rgb(0, 255, 0,0.1);
 }
 tbody > tr:hover{
     background-color: #334155;
+}
+tbody tr{
+    border-bottom: 3px solid #334155;
+}
+tbody tr:last-child{
+  border-bottom: none;
 }
 dialog{
     background-color: #1e293b;

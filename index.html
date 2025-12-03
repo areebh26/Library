@@ -23,30 +23,12 @@
               <th>Actions</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>Introduction to ALgorithms</td>
-              <td>Thomas H. Cormen</td>
-              <td>1312</td>
-              <td>Read</td>
-              <td>
-                <button
-                  class="table-action-button-1"
-                  title="Toggle Read Status"
-                >
-                  📖</button
-                ><button class="table-action-button-2" title="Delete Book">
-                  🗑️
-                </button>
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
       </div>
     </div>
 
     <dialog>
-     
       <div class="dialog-second-container">
         <div class="container-for-input-fields">
           <div class="input-field" id="input-1">
@@ -78,8 +60,8 @@
           <div class="input-field" id="input-4">
             <label for="status">Reading Status</label>
             <select name="status" id="status" required>
-              <option value="1">Read</option>
-              <option value="2">Not Read Yet</option>
+              <option value="Read" id="read">Read</option>
+              <option value="Not Read Yet" id="not-read">Not Read Yet</option>
             </select>
           </div>
         </div>
