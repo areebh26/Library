@@ -6,7 +6,8 @@ This project is part of The Odin Project's JavaScript curriculum. It demonstrate
 ![Project Screenshot]<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/fed2f225-3a2c-47d7-b406-21148b41f4ed" />
  ## 🔗 Live Demo
 
-[**View Live Demo**] https://areebh26.github.io/Library/ ## ✨ Features
+ https://areebh26.github.io/Library/ 
+ ## ✨ Features
 
 - **Add New Books:** Users can input book details (Title, Author, Pages, Read Status) via a dynamic form.
 - **View Library:** Displays all books in a responsive grid/table layout.
